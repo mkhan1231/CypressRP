@@ -7,3 +7,7 @@ it('Testing google page',()  => {
     cy.get('#APjFqb3', {timeout:6000}).type('Paul Pogba{enter}')
     //cy.contains('Google Search').click()
 })
+
+it('Testing google page',()  => {
+cy.log('This is a welcome text')
+})
